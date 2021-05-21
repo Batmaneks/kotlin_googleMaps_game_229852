@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GardenSetupActivity">
+
+    <LinearLayout
+        android:id="@+id/itemBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/dragView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/birch_tree"
+            />
+        <ImageView
+            android:id="@+id/dragView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bench1"
+            />
+        <ImageView
+            android:id="@+id/dragView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/skull"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sandbox"
+        android:background="@drawable/meadow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>
